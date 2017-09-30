@@ -3,7 +3,6 @@
 
 # Defined by LI Jin @ 2017/8/25
 index/
-covariancemMatrices/
 *temp/
 *picture/
 *workdir/
@@ -12,7 +11,6 @@ covariancemMatrices/
 *.pre
 *.jpg
 *.fig
-allNuclide_Reaction
 *index
 
 # User-specific files
