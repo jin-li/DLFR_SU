@@ -10,7 +10,6 @@
 *.pre
 *.jpg
 *.fig
-*index
 
 # User-specific files
 *.suo
