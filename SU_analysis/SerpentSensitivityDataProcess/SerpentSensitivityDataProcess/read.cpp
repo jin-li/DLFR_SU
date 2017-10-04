@@ -585,22 +585,6 @@ void generateArrangeUncertaintyScript(const string sensitivityFileName)
 				arrangeUncertaintyScript
 					<< "unc_nr_contrib(" << commaraMatrixStruct[i][j].serialNumber + 1 << ",:)=sens_nr(" << i + 1 << ",:).*"
 					<< "((rcv(" << i * 33 + 1 << ":" << (i + 1) * 33 << "," << j * 33 + 1 << ":" << (j + 1) * 33 << ")*sens_nr(" << j + 1 << ",:)')');\n";
-				/*
-				if (i == j) {
-					arrangeUncertaintyScript
-						//<< "for i=1:33\n"
-						<< "unc_nr_contrib(" << commaraMatrixStruct[i][j].serialNumber + 1 << ",:)=sens_nr(" << i + 1 << ",:).*"
-						<< "((rcv(" << i * 33 + 1 << ":" << (i + 1) * 33 << "," << j * 33 + 1 << ":" << (j + 1) * 33 << ")*sens_nr(" << j + 1 << ",:)')');\n";
-						//<< "end\n";
-				}
-				else {
-					arrangeUncertaintyScript
-						//<< "for i=1:33\n"
-						<< "unc_nr_contrib(" << commaraMatrixStruct[i][j].serialNumber + 1 << ",:)=2*sens_nr(" << i + 1 << ",:).*"
-						<< "((rcv(" << i * 33 + 1 << ":" << (i + 1) * 33 << "," << j * 33 + 1 << ":" << (j + 1) * 33 << ")*sens_nr(" << j + 1 << ",:)')');\n";
-						//<< "end\n";
-				}
-				*/
 			}
 			else if (commaraMatrixStruct[i][j].ifExist == 2) {
 				arrangeUncertaintyScript
@@ -763,12 +747,12 @@ void generateUncertaintyStairScript(const string sensitivityFileName)
 	}
 	uncertaintyComponSortPre.close();
 
-	ifstream commaraNRpair(indexDirectory + "\\COMMARA_2.0_index");
+	ifstream commaraNRpair(indexDirectory + "\\commaraMatrix.index");
 	string nrPair[5][569];
 	string lineRead4;
 	stringstream ss4;
 	if (!commaraNRpair) {
-		cout << "Can't open file \"" << workDirectory + "\\" + sensitivityFileName + "_temp\\uncertaintySortIndex\"!" << endl;
+		cout << "Can't open file \"" << indexDirectory + "\\commaraMatrix.index\"!" << endl;
 		return;
 	}
 	for (unsigned i = 0; i < 569; i++) {
