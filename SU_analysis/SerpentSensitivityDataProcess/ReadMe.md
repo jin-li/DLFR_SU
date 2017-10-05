@@ -28,6 +28,6 @@ When using Visual Studio compiler, some settings are needed to be changed to use
 If you want to use the executable program (SerpentSensitivityDataProcess.exe) directly, make sure the SERPENT sensitivity output file ([input file name]_sens.m) is in the same directory.  
 
 SerpentSensitivityDataProcess.exe should be used in command line. The syntax is:  
-- SerpentSensitivityDataProcess.exe [input file name]
+- SerpentSensitivityDataProcess.exe [input file name]  
 To be noted, [input file name] doesn't include "_sens.m". For example, if you want to do S/U analysis for file "dlfr_assm_boci_sens.m", the command is:
 - SerpentSensitivityDataProcess.exe dlfr_assm_boci
