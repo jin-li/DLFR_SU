@@ -23,8 +23,9 @@ Check whether these path are in environment variable "Path":
 If not, add them in "Path"  
 ### 1.2 Set Up Compiler Environment
 When using Visual Studio compiler, some settings are needed to be changed to use MATLAB engine.  
+  
 The file with an extension name .vcxproj is the configuration file for a Visual Studio project. If users use it(SerpentSensitivityDataProcess.vcxproj
-, in this directory) directly in Visual Studio, This step can be skipped.
+, in this directory) directly in Visual Studio, this step can be skipped.
 
 ## 2.How to Use the Executable File
 If you want to use the executable program (SerpentSensitivityDataProcess.exe) directly, make sure the SERPENT sensitivity output file ([input file name]_sens.m) is in the same directory.  
