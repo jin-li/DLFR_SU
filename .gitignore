@@ -6,7 +6,7 @@
 *picture/
 *workdir/
 *.m
-!/model/2D_core_abs_free/*
+!/model/2D_core_abs_free/results/*
 *.exe
 *.pre
 *.jpg
