@@ -542,8 +542,8 @@ void generateSensitivityStairScript(const string sensitivityFileName)
 	}
 	*/
 	plotStairsScript << "xlabel('Energy(eV)', 'FontSize', 10);\n";
-	plotStairsScript << "ylabel('Sensitivity coeff', 'FontSize', 10);\n";
-	plotStairsScript << "title('Sensitivity of keff in DLFR assembly','FontSize',14);\n";
+	plotStairsScript << "ylabel('Sensitivity coefficient', 'FontSize', 10);\n";
+	plotStairsScript << "title('Sensitivity of keff in LFR','FontSize',14);\n";
 	plotStairsScript << "xlim([1, 19600000]);\n";
 	plotStairsScript << "legend('";
 	for (unsigned i = 0; i < plotDataNumber-1; i++) {
@@ -819,7 +819,7 @@ void generateUncertaintyStairScript(const string sensitivityFileName)
 	*/
 	plotStairsScript << "xlabel('Energy(eV)','FontSize',10);\n";
 	plotStairsScript << "ylabel('Contribution to total uncertainty', 'FontSize', 10);\n";
-	plotStairsScript << "title('Components of keff uncertainty in DLFR assembly','FontSize',14);\n";
+	plotStairsScript << "title('Components of keff uncertainty in LFR ','FontSize',14);\n";
 	plotStairsScript << "xlim([1, 19600000]);\n";
 	//plotStairsScript << "ylim([-0.005, 0.01]);\n";
 	plotStairsScript << "legend('";
