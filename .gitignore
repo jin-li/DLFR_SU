@@ -6,6 +6,8 @@
 *picture/
 *workdir/
 *.m
+!/model/2D_core_abs_free/*.m
+!/SU_analysis/GetCommaraRelativeCovirianceMatrix/GetCommaraRelativeCovarianceMatrix/*.m
 *.exe
 *.pre
 *.jpg
