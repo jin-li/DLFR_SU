@@ -10,8 +10,8 @@
 *.pre
 *.jpg
 *.fig
-!/model/2D_core_abs_free/results/*
-!/model/2D_core_abs_free/results/*picture/*.jpg
+!/model/2D_core_abs_free/results/*temp/
+!/model/2D_core_abs_free/results/*picture/
 
 # User-specific files
 *.suo
