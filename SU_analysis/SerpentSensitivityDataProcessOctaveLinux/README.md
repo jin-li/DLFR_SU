@@ -10,8 +10,8 @@ substitute the 11th line of "initialize.m" with
 ## Addpath
 Make sure these .m files are included in the search path of your Octave.  
 - For command line users, you can use following command to set searching path:
-> addpath('/home/jli80/documents/octave/SerpentSensitivityDataProcessOctaveLinux');  
-> savepath('~/.octaverc');  
+> addpath("/home/jli80/documents/octave/SerpentSensitivityDataProcessOctaveLinux");  
+> savepath("~/.octaverc");  
 
 The second command will create a configure file of Octave.  
 For more details, please refer to Octave help: <https://www.gnu.org/software/octave/doc/interpreter/Manipulating-the-Load-Path.html>
