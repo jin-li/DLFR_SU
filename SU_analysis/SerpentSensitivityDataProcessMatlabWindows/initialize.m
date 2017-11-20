@@ -8,7 +8,7 @@
 
 load('temp.mat','fileName');
 workdir=cd;
-indexdir='C:\Users\LI Jin\Documents\MATLAB\SerpentSensitivityDataProcessMatlab\indexm';
+indexdir='C:\Users\LI Jin\Documents\MATLAB\SerpentSensitivityDataProcessMatlabWindows\indexm';
 tempdir=[workdir,'\',fileName,'_temp'];
 picturedir=[workdir,'\',fileName,'_picture'];
 
