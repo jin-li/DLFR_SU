@@ -1,0 +1,569 @@
+  1 ELASTIC      H1                      ELASTIC      H1           
+  2 CAPTURE      H1                      CAPTURE      H1           
+  3 ELASTIC      H2                      ELASTIC      H2           
+  4 ELASTIC      H2                      NxN          H2           
+  5 NxN          H2                      NxN          H2           
+  6 CAPTURE      H2                      CAPTURE      H2           
+  7 ELASTIC      HE4                     ELASTIC      HE4          
+  8 ELASTIC      LI6                     ELASTIC      LI6          
+  9 INELASTIC    LI6                     INELASTIC    LI6          
+ 10 CAPTURE      LI6                     CAPTURE      LI6          
+ 11 ELASTIC      LI7                     ELASTIC      LI7          
+ 12 ELASTIC      LI7                     INELASTIC    LI7          
+ 13 INELASTIC    LI7                     INELASTIC    LI7          
+ 14 CAPTURE      LI7                     CAPTURE      LI7          
+ 15 ELASTIC      BE9                     ELASTIC      BE9          
+ 16 ELASTIC      BE9                     NxN          BE9          
+ 17 NxN          BE9                     NxN          BE9          
+ 18 CAPTURE      BE9                     CAPTURE      BE9          
+ 19 ELASTIC      BE9                     CAPTURE      BE9          
+ 20 ELASTIC      B10                     ELASTIC      B10          
+ 21 ELASTIC      B10                     INELASTIC    B10          
+ 22 INELASTIC    B10                     INELASTIC    B10          
+ 23 CAPTURE      B10                     CAPTURE      B10          
+ 24 INELASTIC    B10                     CAPTURE      B10          
+ 25 ELASTIC      B11                     ELASTIC      B11          
+ 26 ELASTIC      B11                     INELASTIC    B11          
+ 27 ELASTIC      B11                     NxN          B11          
+ 28 INELASTIC    B11                     INELASTIC    B11          
+ 29 NxN          B11                     NxN          B11          
+ 30 CAPTURE      B11                     CAPTURE      B11          
+ 31 ELASTIC      B11                     CAPTURE      B11          
+ 32 ELASTIC      C0                      ELASTIC      C0           
+ 33 ELASTIC      C0                      INELASTIC    C0           
+ 34 INELASTIC    C0                      INELASTIC    C0           
+ 35 CAPTURE      C0                      CAPTURE      C0           
+ 36 INELASTIC    C0                      CAPTURE      C0           
+ 37 ELASTIC      N15                     ELASTIC      N15          
+ 38 ELASTIC      N15                     INELASTIC    N15          
+ 39 ELASTIC      N15                     NxN          N15          
+ 40 INELASTIC    N15                     INELASTIC    N15          
+ 41 NxN          N15                     NxN          N15          
+ 42 CAPTURE      N15                     CAPTURE      N15          
+ 43 ELASTIC      N15                     CAPTURE      N15          
+ 44 ELASTIC      O16                     ELASTIC      O16          
+ 45 ELASTIC      O16                     INELASTIC    O16          
+ 46 INELASTIC    O16                     INELASTIC    O16          
+ 47 NxN          O16                     NxN          O16          
+ 48 CAPTURE      O16                     CAPTURE      O16          
+ 49 ELASTIC      F19                     ELASTIC      F19          
+ 50 ELASTIC      F19                     INELASTIC    F19          
+ 51 ELASTIC      F19                     NxN          F19          
+ 52 INELASTIC    F19                     INELASTIC    F19          
+ 53 INELASTIC    F19                     NxN          F19          
+ 54 NxN          F19                     NxN          F19          
+ 55 CAPTURE      F19                     CAPTURE      F19          
+ 56 ELASTIC      F19                     CAPTURE      F19          
+ 57 ELASTIC      NA23                    ELASTIC      NA23         
+ 58 INELASTIC    NA23                    INELASTIC    NA23         
+ 59 NxN          NA23                    NxN          NA23         
+ 60 CAPTURE      NA23                    CAPTURE      NA23         
+ 61 ELASTIC      NA23                    CAPTURE      NA23         
+ 62 P1ELAS       NA23                    P1ELAS       NA23         
+ 63 ELASTIC      MG24                    ELASTIC      MG24         
+ 64 INELASTIC    MG24                    INELASTIC    MG24         
+ 65 NxN          MG24                    NxN          MG24         
+ 66 CAPTURE      MG24                    CAPTURE      MG24         
+ 67 ELASTIC      MG25                    ELASTIC      MG25         
+ 68 INELASTIC    MG25                    INELASTIC    MG25         
+ 69 NxN          MG25                    NxN          MG25         
+ 70 CAPTURE      MG25                    CAPTURE      MG25         
+ 71 ELASTIC      MG26                    ELASTIC      MG26         
+ 72 INELASTIC    MG26                    INELASTIC    MG26         
+ 73 NxN          MG26                    NxN          MG26         
+ 74 CAPTURE      MG26                    CAPTURE      MG26         
+ 75 ELASTIC      AL27                    ELASTIC      AL27         
+ 76 INELASTIC    AL27                    INELASTIC    AL27         
+ 77 NxN          AL27                    NxN          AL27         
+ 78 CAPTURE      AL27                    CAPTURE      AL27         
+ 79 ELASTIC      SI28                    ELASTIC      SI28         
+ 80 ELASTIC      SI28                    INELASTIC    SI28         
+ 81 INELASTIC    SI28                    INELASTIC    SI28         
+ 82 INELASTIC    SI28                    NxN          SI28         
+ 83 NxN          SI28                    NxN          SI28         
+ 84 CAPTURE      SI28                    CAPTURE      SI28         
+ 85 INELASTIC    SI28                    CAPTURE      SI28         
+ 86 ELASTIC      SI29                    ELASTIC      SI29         
+ 87 ELASTIC      SI29                    INELASTIC    SI29         
+ 88 INELASTIC    SI29                    INELASTIC    SI29         
+ 89 INELASTIC    SI29                    NxN          SI29         
+ 90 NxN          SI29                    NxN          SI29         
+ 91 CAPTURE      SI29                    CAPTURE      SI29         
+ 92 INELASTIC    SI29                    CAPTURE      SI29         
+ 93 ELASTIC      SI30                    ELASTIC      SI30         
+ 94 ELASTIC      SI30                    INELASTIC    SI30         
+ 95 INELASTIC    SI30                    INELASTIC    SI30         
+ 96 INELASTIC    SI30                    NxN          SI30         
+ 97 NxN          SI30                    NxN          SI30         
+ 98 CAPTURE      SI30                    CAPTURE      SI30         
+ 99 INELASTIC    SI30                    CAPTURE      SI30         
+100 ELASTIC      CR50                    ELASTIC      CR50         
+101 ELASTIC      CR50                    INELASTIC    CR50         
+102 INELASTIC    CR50                    INELASTIC    CR50         
+103 INELASTIC    CR50                    NxN          CR50         
+104 NxN          CR50                    NxN          CR50         
+105 CAPTURE      CR50                    CAPTURE      CR50         
+106 INELASTIC    CR50                    CAPTURE      CR50         
+107 ELASTIC      CR52                    ELASTIC      CR52         
+108 ELASTIC      CR52                    INELASTIC    CR52         
+109 INELASTIC    CR52                    INELASTIC    CR52         
+110 INELASTIC    CR52                    NxN          CR52         
+111 NxN          CR52                    NxN          CR52         
+112 CAPTURE      CR52                    CAPTURE      CR52         
+113 INELASTIC    CR52                    CAPTURE      CR52         
+114 ELASTIC      CR53                    ELASTIC      CR53         
+115 ELASTIC      CR53                    INELASTIC    CR53         
+116 INELASTIC    CR53                    INELASTIC    CR53         
+117 INELASTIC    CR53                    NxN          CR53         
+118 NxN          CR53                    NxN          CR53         
+119 CAPTURE      CR53                    CAPTURE      CR53         
+120 INELASTIC    CR53                    CAPTURE      CR53         
+121 ELASTIC      MN55                    ELASTIC      MN55         
+122 ELASTIC      MN55                    INELASTIC    MN55         
+123 ELASTIC      MN55                    NxN          MN55         
+124 INELASTIC    MN55                    INELASTIC    MN55         
+125 NxN          MN55                    NxN          MN55         
+126 CAPTURE      MN55                    CAPTURE      MN55         
+127 ELASTIC      FE54                    ELASTIC      FE54         
+128 ELASTIC      FE54                    INELASTIC    FE54         
+129 INELASTIC    FE54                    INELASTIC    FE54         
+130 INELASTIC    FE54                    NxN          FE54         
+131 NxN          FE54                    NxN          FE54         
+132 CAPTURE      FE54                    CAPTURE      FE54         
+133 INELASTIC    FE54                    CAPTURE      FE54         
+134 ELASTIC      FE56                    ELASTIC      FE56         
+135 ELASTIC      FE56                    INELASTIC    FE56         
+136 INELASTIC    FE56                    INELASTIC    FE56         
+137 INELASTIC    FE56                    NxN          FE56         
+138 NxN          FE56                    NxN          FE56         
+139 CAPTURE      FE56                    CAPTURE      FE56         
+140 INELASTIC    FE56                    CAPTURE      FE56         
+141 P1ELAS       FE56                    P1ELAS       FE56         
+142 ELASTIC      FE57                    ELASTIC      FE57         
+143 ELASTIC      FE57                    INELASTIC    FE57         
+144 INELASTIC    FE57                    INELASTIC    FE57         
+145 INELASTIC    FE57                    NxN          FE57         
+146 NxN          FE57                    NxN          FE57         
+147 CAPTURE      FE57                    CAPTURE      FE57         
+148 INELASTIC    FE57                    CAPTURE      FE57         
+149 ELASTIC      NI58                    ELASTIC      NI58         
+150 INELASTIC    NI58                    INELASTIC    NI58         
+151 INELASTIC    NI58                    NxN          NI58         
+152 NxN          NI58                    NxN          NI58         
+153 CAPTURE      NI58                    CAPTURE      NI58         
+154 INELASTIC    NI58                    CAPTURE      NI58         
+155 ELASTIC      NI60                    ELASTIC      NI60         
+156 ELASTIC      NI60                    INELASTIC    NI60         
+157 INELASTIC    NI60                    INELASTIC    NI60         
+158 INELASTIC    NI60                    NxN          NI60         
+159 NxN          NI60                    NxN          NI60         
+160 CAPTURE      NI60                    CAPTURE      NI60         
+161 INELASTIC    NI60                    CAPTURE      NI60         
+162 ELASTIC      ZR90                    ELASTIC      ZR90         
+163 INELASTIC    ZR90                    INELASTIC    ZR90         
+164 NxN          ZR90                    NxN          ZR90         
+165 CAPTURE      ZR90                    CAPTURE      ZR90         
+166 ELASTIC      ZR91                    ELASTIC      ZR91         
+167 INELASTIC    ZR91                    INELASTIC    ZR91         
+168 NxN          ZR91                    NxN          ZR91         
+169 CAPTURE      ZR91                    CAPTURE      ZR91         
+170 ELASTIC      ZR92                    ELASTIC      ZR92         
+171 INELASTIC    ZR92                    INELASTIC    ZR92         
+172 NxN          ZR92                    NxN          ZR92         
+173 CAPTURE      ZR92                    CAPTURE      ZR92         
+174 ELASTIC      ZR93                    ELASTIC      ZR93         
+175 INELASTIC    ZR93                    INELASTIC    ZR93         
+176 NxN          ZR93                    NxN          ZR93         
+177 CAPTURE      ZR93                    CAPTURE      ZR93         
+178 ELASTIC      ZR94                    ELASTIC      ZR94         
+179 INELASTIC    ZR94                    INELASTIC    ZR94         
+180 NxN          ZR94                    NxN          ZR94         
+181 CAPTURE      ZR94                    CAPTURE      ZR94         
+182 ELASTIC      ZR95                    ELASTIC      ZR95         
+183 INELASTIC    ZR95                    INELASTIC    ZR95         
+184 NxN          ZR95                    NxN          ZR95         
+185 CAPTURE      ZR95                    CAPTURE      ZR95         
+186 ELASTIC      ZR96                    ELASTIC      ZR96         
+187 INELASTIC    ZR96                    INELASTIC    ZR96         
+188 NxN          ZR96                    NxN          ZR96         
+189 CAPTURE      ZR96                    CAPTURE      ZR96         
+190 ELASTIC      NB95                    ELASTIC      NB95         
+191 INELASTIC    NB95                    INELASTIC    NB95         
+192 NxN          NB95                    NxN          NB95         
+193 CAPTURE      NB95                    CAPTURE      NB95         
+194 ELASTIC      MO92                    ELASTIC      MO92         
+195 INELASTIC    MO92                    INELASTIC    MO92         
+196 NxN          MO92                    NxN          MO92         
+197 CAPTURE      MO92                    CAPTURE      MO92         
+198 ELASTIC      MO94                    ELASTIC      MO94         
+199 INELASTIC    MO94                    INELASTIC    MO94         
+200 NxN          MO94                    NxN          MO94         
+201 CAPTURE      MO94                    CAPTURE      MO94         
+202 ELASTIC      MO95                    ELASTIC      MO95         
+203 INELASTIC    MO95                    INELASTIC    MO95         
+204 NxN          MO95                    NxN          MO95         
+205 CAPTURE      MO95                    CAPTURE      MO95         
+206 ELASTIC      MO96                    ELASTIC      MO96         
+207 INELASTIC    MO96                    INELASTIC    MO96         
+208 NxN          MO96                    NxN          MO96         
+209 CAPTURE      MO96                    CAPTURE      MO96         
+210 ELASTIC      MO97                    ELASTIC      MO97         
+211 INELASTIC    MO97                    INELASTIC    MO97         
+212 NxN          MO97                    NxN          MO97         
+213 CAPTURE      MO97                    CAPTURE      MO97         
+214 ELASTIC      MO98                    ELASTIC      MO98         
+215 INELASTIC    MO98                    INELASTIC    MO98         
+216 NxN          MO98                    NxN          MO98         
+217 CAPTURE      MO98                    CAPTURE      MO98         
+218 ELASTIC      MO100                   ELASTIC      MO100        
+219 INELASTIC    MO100                   INELASTIC    MO100        
+220 NxN          MO100                   NxN          MO100        
+221 CAPTURE      MO100                   CAPTURE      MO100        
+222 ELASTIC      TC99                    ELASTIC      TC99         
+223 INELASTIC    TC99                    INELASTIC    TC99         
+224 NxN          TC99                    NxN          TC99         
+225 CAPTURE      TC99                    CAPTURE      TC99         
+226 ELASTIC      RU101                   ELASTIC      RU101        
+227 INELASTIC    RU101                   INELASTIC    RU101        
+228 NxN          RU101                   NxN          RU101        
+229 CAPTURE      RU101                   CAPTURE      RU101        
+230 ELASTIC      RU102                   ELASTIC      RU102        
+231 INELASTIC    RU102                   INELASTIC    RU102        
+232 NxN          RU102                   NxN          RU102        
+233 CAPTURE      RU102                   CAPTURE      RU102        
+234 ELASTIC      RU103                   ELASTIC      RU103        
+235 INELASTIC    RU103                   INELASTIC    RU103        
+236 NxN          RU103                   NxN          RU103        
+237 CAPTURE      RU103                   CAPTURE      RU103        
+238 ELASTIC      RU104                   ELASTIC      RU104        
+239 INELASTIC    RU104                   INELASTIC    RU104        
+240 NxN          RU104                   NxN          RU104        
+241 CAPTURE      RU104                   CAPTURE      RU104        
+242 ELASTIC      RU106                   ELASTIC      RU106        
+243 INELASTIC    RU106                   INELASTIC    RU106        
+244 NxN          RU106                   NxN          RU106        
+245 CAPTURE      RU106                   CAPTURE      RU106        
+246 ELASTIC      RH103                   ELASTIC      RH103        
+247 INELASTIC    RH103                   INELASTIC    RH103        
+248 NxN          RH103                   NxN          RH103        
+249 CAPTURE      RH103                   CAPTURE      RH103        
+250 ELASTIC      PD105                   ELASTIC      PD105        
+251 INELASTIC    PD105                   INELASTIC    PD105        
+252 NxN          PD105                   NxN          PD105        
+253 CAPTURE      PD105                   CAPTURE      PD105        
+254 ELASTIC      PD106                   ELASTIC      PD106        
+255 INELASTIC    PD106                   INELASTIC    PD106        
+256 NxN          PD106                   NxN          PD106        
+257 CAPTURE      PD106                   CAPTURE      PD106        
+258 ELASTIC      PD107                   ELASTIC      PD107        
+259 INELASTIC    PD107                   INELASTIC    PD107        
+260 NxN          PD107                   NxN          PD107        
+261 CAPTURE      PD107                   CAPTURE      PD107        
+262 ELASTIC      PD108                   ELASTIC      PD108        
+263 INELASTIC    PD108                   INELASTIC    PD108        
+264 NxN          PD108                   NxN          PD108        
+265 CAPTURE      PD108                   CAPTURE      PD108        
+266 ELASTIC      AG109                   ELASTIC      AG109        
+267 INELASTIC    AG109                   INELASTIC    AG109        
+268 NxN          AG109                   NxN          AG109        
+269 CAPTURE      AG109                   CAPTURE      AG109        
+270 ELASTIC      I127                    ELASTIC      I127         
+271 INELASTIC    I127                    INELASTIC    I127         
+272 NxN          I127                    NxN          I127         
+273 CAPTURE      I127                    CAPTURE      I127         
+274 ELASTIC      I129                    ELASTIC      I129         
+275 INELASTIC    I129                    INELASTIC    I129         
+276 NxN          I129                    NxN          I129         
+277 CAPTURE      I129                    CAPTURE      I129         
+278 ELASTIC      XE131                   ELASTIC      XE131        
+279 INELASTIC    XE131                   INELASTIC    XE131        
+280 NxN          XE131                   NxN          XE131        
+281 CAPTURE      XE131                   CAPTURE      XE131        
+282 ELASTIC      XE132                   ELASTIC      XE132        
+283 INELASTIC    XE132                   INELASTIC    XE132        
+284 NxN          XE132                   NxN          XE132        
+285 CAPTURE      XE132                   CAPTURE      XE132        
+286 ELASTIC      XE134                   ELASTIC      XE134        
+287 INELASTIC    XE134                   INELASTIC    XE134        
+288 NxN          XE134                   NxN          XE134        
+289 CAPTURE      XE134                   CAPTURE      XE134        
+290 ELASTIC      CS133                   ELASTIC      CS133        
+291 INELASTIC    CS133                   INELASTIC    CS133        
+292 NxN          CS133                   NxN          CS133        
+293 CAPTURE      CS133                   CAPTURE      CS133        
+294 ELASTIC      CS135                   ELASTIC      CS135        
+295 INELASTIC    CS135                   INELASTIC    CS135        
+296 NxN          CS135                   NxN          CS135        
+297 CAPTURE      CS135                   CAPTURE      CS135        
+298 ELASTIC      LA139                   ELASTIC      LA139        
+299 INELASTIC    LA139                   INELASTIC    LA139        
+300 NxN          LA139                   NxN          LA139        
+301 CAPTURE      LA139                   CAPTURE      LA139        
+302 ELASTIC      CE141                   ELASTIC      CE141        
+303 INELASTIC    CE141                   INELASTIC    CE141        
+304 NxN          CE141                   NxN          CE141        
+305 CAPTURE      CE141                   CAPTURE      CE141        
+306 ELASTIC      PR141                   ELASTIC      PR141        
+307 INELASTIC    PR141                   INELASTIC    PR141        
+308 NxN          PR141                   NxN          PR141        
+309 CAPTURE      PR141                   CAPTURE      PR141        
+310 ELASTIC      ND143                   ELASTIC      ND143        
+311 INELASTIC    ND143                   INELASTIC    ND143        
+312 NxN          ND143                   NxN          ND143        
+313 CAPTURE      ND143                   CAPTURE      ND143        
+314 ELASTIC      ND145                   ELASTIC      ND145        
+315 INELASTIC    ND145                   INELASTIC    ND145        
+316 NxN          ND145                   NxN          ND145        
+317 CAPTURE      ND145                   CAPTURE      ND145        
+318 ELASTIC      ND146                   ELASTIC      ND146        
+319 INELASTIC    ND146                   INELASTIC    ND146        
+320 NxN          ND146                   NxN          ND146        
+321 CAPTURE      ND146                   CAPTURE      ND146        
+322 ELASTIC      ND148                   ELASTIC      ND148        
+323 INELASTIC    ND148                   INELASTIC    ND148        
+324 NxN          ND148                   NxN          ND148        
+325 CAPTURE      ND148                   CAPTURE      ND148        
+326 ELASTIC      PM147                   ELASTIC      PM147        
+327 INELASTIC    PM147                   INELASTIC    PM147        
+328 NxN          PM147                   NxN          PM147        
+329 CAPTURE      PM147                   CAPTURE      PM147        
+330 ELASTIC      SM149                   ELASTIC      SM149        
+331 INELASTIC    SM149                   INELASTIC    SM149        
+332 NxN          SM149                   NxN          SM149        
+333 CAPTURE      SM149                   CAPTURE      SM149        
+334 ELASTIC      SM151                   ELASTIC      SM151        
+335 INELASTIC    SM151                   INELASTIC    SM151        
+336 NxN          SM151                   NxN          SM151        
+337 CAPTURE      SM151                   CAPTURE      SM151        
+338 ELASTIC      SM152                   ELASTIC      SM152        
+339 INELASTIC    SM152                   INELASTIC    SM152        
+340 NxN          SM152                   NxN          SM152        
+341 CAPTURE      SM152                   CAPTURE      SM152        
+342 ELASTIC      EU153                   ELASTIC      EU153        
+343 INELASTIC    EU153                   INELASTIC    EU153        
+344 NxN          EU153                   NxN          EU153        
+345 CAPTURE      EU153                   CAPTURE      EU153        
+346 ELASTIC      EU155                   ELASTIC      EU155        
+347 INELASTIC    EU155                   INELASTIC    EU155        
+348 NxN          EU155                   NxN          EU155        
+349 CAPTURE      EU155                   CAPTURE      EU155        
+350 ELASTIC      GD155                   ELASTIC      GD155        
+351 INELASTIC    GD155                   INELASTIC    GD155        
+352 NxN          GD155                   NxN          GD155        
+353 CAPTURE      GD155                   CAPTURE      GD155        
+354 ELASTIC      GD155                   CAPTURE      GD155        
+355 ELASTIC      GD156                   ELASTIC      GD156        
+356 INELASTIC    GD156                   INELASTIC    GD156        
+357 NxN          GD156                   NxN          GD156        
+358 CAPTURE      GD156                   CAPTURE      GD156        
+359 ELASTIC      GD157                   ELASTIC      GD157        
+360 INELASTIC    GD157                   INELASTIC    GD157        
+361 NxN          GD157                   NxN          GD157        
+362 CAPTURE      GD157                   CAPTURE      GD157        
+363 ELASTIC      GD157                   CAPTURE      GD157        
+364 ELASTIC      GD158                   ELASTIC      GD158        
+365 INELASTIC    GD158                   INELASTIC    GD158        
+366 NxN          GD158                   NxN          GD158        
+367 CAPTURE      GD158                   CAPTURE      GD158        
+368 ELASTIC      GD160                   ELASTIC      GD160        
+369 INELASTIC    GD160                   INELASTIC    GD160        
+370 NxN          GD160                   NxN          GD160        
+371 CAPTURE      GD160                   CAPTURE      GD160        
+372 ELASTIC      GD160                   CAPTURE      GD160        
+373 ELASTIC      ER166                   ELASTIC      ER166        
+374 INELASTIC    ER166                   INELASTIC    ER166        
+375 NxN          ER166                   NxN          ER166        
+376 CAPTURE      ER166                   CAPTURE      ER166        
+377 ELASTIC      ER167                   ELASTIC      ER167        
+378 INELASTIC    ER167                   INELASTIC    ER167        
+379 NxN          ER167                   NxN          ER167        
+380 CAPTURE      ER167                   CAPTURE      ER167        
+381 ELASTIC      ER168                   ELASTIC      ER168        
+382 INELASTIC    ER168                   INELASTIC    ER168        
+383 NxN          ER168                   NxN          ER168        
+384 CAPTURE      ER168                   CAPTURE      ER168        
+385 ELASTIC      ER170                   ELASTIC      ER170        
+386 INELASTIC    ER170                   INELASTIC    ER170        
+387 NxN          ER170                   NxN          ER170        
+388 CAPTURE      ER170                   CAPTURE      ER170        
+389 ELASTIC      PB204                   ELASTIC      PB204        
+390 INELASTIC    PB204                   INELASTIC    PB204        
+391 NxN          PB204                   NxN          PB204        
+392 CAPTURE      PB204                   CAPTURE      PB204        
+393 ELASTIC      PB206                   ELASTIC      PB206        
+394 INELASTIC    PB206                   INELASTIC    PB206        
+395 NxN          PB206                   NxN          PB206        
+396 CAPTURE      PB206                   CAPTURE      PB206        
+397 ELASTIC      PB207                   ELASTIC      PB207        
+398 INELASTIC    PB207                   INELASTIC    PB207        
+399 NxN          PB207                   NxN          PB207        
+400 CAPTURE      PB207                   CAPTURE      PB207        
+401 ELASTIC      PB208                   ELASTIC      PB208        
+402 INELASTIC    PB208                   INELASTIC    PB208        
+403 NxN          PB208                   NxN          PB208        
+404 CAPTURE      PB208                   CAPTURE      PB208        
+405 ELASTIC      BI209                   ELASTIC      BI209        
+406 INELASTIC    BI209                   INELASTIC    BI209        
+407 NxN          BI209                   NxN          BI209        
+408 CAPTURE      BI209                   CAPTURE      BI209        
+409 ELASTIC      TH232                   ELASTIC      TH232        
+410 ELASTIC      TH232                   FISSION      TH232        
+411 FISSION      TH232                   FISSION      TH232        
+412 CAPTURE      TH232                   CAPTURE      TH232        
+413 ELASTIC      TH232                   CAPTURE      TH232        
+414 FISSION      TH232                   CAPTURE      TH232        
+415 NU           U233                    NU           U233         
+416 ELASTIC      U233                    ELASTIC      U233         
+417 ELASTIC      U233                    INELASTIC    U233         
+418 ELASTIC      U233                    NxN          U233         
+419 ELASTIC      U233                    FISSION      U233         
+420 INELASTIC    U233                    INELASTIC    U233         
+421 NxN          U233                    NxN          U233         
+422 FISSION      U233                    FISSION      U233         
+423 CAPTURE      U233                    CAPTURE      U233         
+424 ELASTIC      U233                    CAPTURE      U233         
+425 FISSION      U233                    CAPTURE      U233         
+426 NU           U234                    NU           U234         
+427 ELASTIC      U234                    ELASTIC      U234         
+428 INELASTIC    U234                    INELASTIC    U234         
+429 NxN          U234                    NxN          U234         
+430 FISSION      U234                    FISSION      U234         
+431 CAPTURE      U234                    CAPTURE      U234         
+432 NU           U235                    NU           U235         
+433 ELASTIC      U235                    ELASTIC      U235         
+434 ELASTIC      U235                    INELASTIC    U235         
+435 ELASTIC      U235                    NxN          U235         
+436 ELASTIC      U235                    FISSION      U235         
+437 INELASTIC    U235                    INELASTIC    U235         
+438 NxN          U235                    NxN          U235         
+439 FISSION      U235                    FISSION      U235         
+440 CAPTURE      U235                    CAPTURE      U235         
+441 ELASTIC      U235                    CAPTURE      U235         
+442 FISSION      U235                    CAPTURE      U235         
+443 NU           U236                    NU           U236         
+444 ELASTIC      U236                    ELASTIC      U236         
+445 INELASTIC    U236                    INELASTIC    U236         
+446 NxN          U236                    NxN          U236         
+447 FISSION      U236                    FISSION      U236         
+448 CAPTURE      U236                    CAPTURE      U236         
+449 NU           U238                    NU           U238         
+450 ELASTIC      U238                    ELASTIC      U238         
+451 ELASTIC      U238                    INELASTIC    U238         
+452 ELASTIC      U238                    NxN          U238         
+453 ELASTIC      U238                    FISSION      U238         
+454 INELASTIC    U238                    INELASTIC    U238         
+455 NxN          U238                    NxN          U238         
+456 FISSION      U238                    FISSION      U238         
+457 CAPTURE      U238                    CAPTURE      U238         
+458 ELASTIC      U238                    CAPTURE      U238         
+459 FISSION      U238                    CAPTURE      U238         
+460 NU           NP237                   NU           NP237        
+461 ELASTIC      NP237                   ELASTIC      NP237        
+462 INELASTIC    NP237                   INELASTIC    NP237        
+463 NxN          NP237                   NxN          NP237        
+464 FISSION      NP237                   FISSION      NP237        
+465 CAPTURE      NP237                   CAPTURE      NP237        
+466 NU           PU238                   NU           PU238        
+467 ELASTIC      PU238                   ELASTIC      PU238        
+468 ELASTIC      PU238                   INELASTIC    PU238        
+469 ELASTIC      PU238                   NxN          PU238        
+470 ELASTIC      PU238                   FISSION      PU238        
+471 INELASTIC    PU238                   INELASTIC    PU238        
+472 NxN          PU238                   NxN          PU238        
+473 FISSION      PU238                   FISSION      PU238        
+474 CAPTURE      PU238                   CAPTURE      PU238        
+475 ELASTIC      PU238                   CAPTURE      PU238        
+476 KHI          PU238                   KHI          PU238        
+477 NU           PU239                   NU           PU239        
+478 ELASTIC      PU239                   ELASTIC      PU239        
+479 ELASTIC      PU239                   INELASTIC    PU239        
+480 ELASTIC      PU239                   NxN          PU239        
+481 ELASTIC      PU239                   FISSION      PU239        
+482 INELASTIC    PU239                   INELASTIC    PU239        
+483 NxN          PU239                   NxN          PU239        
+484 FISSION      PU239                   FISSION      PU239        
+485 CAPTURE      PU239                   CAPTURE      PU239        
+486 ELASTIC      PU239                   CAPTURE      PU239        
+487 FISSION      PU239                   CAPTURE      PU239        
+488 KHI         PU239                   KHI          PU239        
+489 NU           PU240                   NU           PU240        
+490 ELASTIC      PU240                   ELASTIC      PU240        
+491 ELASTIC      PU240                   INELASTIC    PU240        
+492 ELASTIC      PU240                   NxN          PU240        
+493 ELASTIC      PU240                   FISSION      PU240        
+494 INELASTIC    PU240                   INELASTIC    PU240        
+495 NxN          PU240                   NxN          PU240        
+496 FISSION      PU240                   FISSION      PU240        
+497 CAPTURE      PU240                   CAPTURE      PU240        
+498 ELASTIC      PU240                   CAPTURE      PU240        
+499 FISSION      PU240                   CAPTURE      PU240        
+500 KHI         PU240                   KHI          PU240        
+501 NU           PU241                   NU           PU241        
+502 ELASTIC      PU241                   ELASTIC      PU241        
+503 INELASTIC    PU241                   INELASTIC    PU241        
+504 NxN          PU241                   NxN          PU241        
+505 FISSION      PU241                   FISSION      PU241        
+506 CAPTURE      PU241                   CAPTURE      PU241        
+507 NU           PU242                   NU           PU242        
+508 ELASTIC      PU242                   ELASTIC      PU242        
+509 INELASTIC    PU242                   INELASTIC    PU242        
+510 NxN          PU242                   NxN          PU242        
+511 FISSION      PU242                   FISSION      PU242        
+512 CAPTURE      PU242                   CAPTURE      PU242        
+513 NU           AM241                   NU           AM241        
+514 ELASTIC      AM241                   ELASTIC      AM241        
+515 ELASTIC      AM241                   INELASTIC    AM241        
+516 ELASTIC      AM241                   NxN          AM241        
+517 ELASTIC      AM241                   FISSION      AM241        
+518 INELASTIC    AM241                   INELASTIC    AM241        
+519 NxN          AM241                   NxN          AM241        
+520 FISSION      AM241                   FISSION      AM241        
+521 CAPTURE      AM241                   CAPTURE      AM241        
+522 ELASTIC      AM241                   CAPTURE      AM241        
+523 FISSION      AM241                   CAPTURE      AM241        
+524 NU           AM242M                  NU           AM242M       
+525 ELASTIC      AM242M                  ELASTIC      AM242M       
+526 INELASTIC    AM242M                  INELASTIC    AM242M       
+527 NxN          AM242M                  NxN          AM242M       
+528 FISSION      AM242M                  FISSION      AM242M       
+529 CAPTURE      AM242M                  CAPTURE      AM242M       
+530 NU           AM243                   NU           AM243        
+531 ELASTIC      AM243                   ELASTIC      AM243        
+532 INELASTIC    AM243                   INELASTIC    AM243        
+533 NxN          AM243                   NxN          AM243        
+534 FISSION      AM243                   FISSION      AM243        
+535 CAPTURE      AM243                   CAPTURE      AM243        
+536 NU           CM242                   NU           CM242        
+537 ELASTIC      CM242                   ELASTIC      CM242        
+538 INELASTIC    CM242                   INELASTIC    CM242        
+539 NxN          CM242                   NxN          CM242        
+540 FISSION      CM242                   FISSION      CM242        
+541 CAPTURE      CM242                   CAPTURE      CM242        
+542 NU           CM243                   NU           CM243        
+543 ELASTIC      CM243                   ELASTIC      CM243        
+544 INELASTIC    CM243                   INELASTIC    CM243        
+545 NxN          CM243                   NxN          CM243        
+546 FISSION      CM243                   FISSION      CM243        
+547 CAPTURE      CM243                   CAPTURE      CM243        
+548 NU           CM244                   NU           CM244        
+549 ELASTIC      CM244                   ELASTIC      CM244        
+550 INELASTIC    CM244                   INELASTIC    CM244        
+551 NxN          CM244                   NxN          CM244        
+552 FISSION      CM244                   FISSION      CM244        
+553 CAPTURE      CM244                   CAPTURE      CM244        
+554 NU           CM245                   NU           CM245        
+555 ELASTIC      CM245                   ELASTIC      CM245        
+556 INELASTIC    CM245                   INELASTIC    CM245        
+557 NxN          CM245                   NxN          CM245        
+558 FISSION      CM245                   FISSION      CM245        
+559 CAPTURE      CM245                   CAPTURE      CM245        
+560 NU           CM246                   NU           CM246        
+561 ELASTIC      CM246                   ELASTIC      CM246        
+562 ELASTIC      CM246                   INELASTIC    CM246        
+563 ELASTIC      CM246                   NxN          CM246        
+564 ELASTIC      CM246                   FISSION      CM246        
+565 INELASTIC    CM246                   INELASTIC    CM246        
+566 NxN          CM246                   NxN          CM246        
+567 FISSION      CM246                   FISSION      CM246        
+568 CAPTURE      CM246                   CAPTURE      CM246        
+569 ELASTIC      CM246                   CAPTURE      CM246        
