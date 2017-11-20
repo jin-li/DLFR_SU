@@ -14,7 +14,7 @@
 !/model/2D_core_abs_free/results/*temp/
 !/model/2D_core_abs_free/results/*picture/
 !/SU_analysis/SerpentSensitivityDataProcessMatlabWindows/*.m
-!/SU_analysis/SerpentSensitivityDataProcessOctaveCluster/*.m
+!/SU_analysis/SerpentSensitivityDataProcessOctaveLinux/*.m
 
 # User-specific files
 *.suo
