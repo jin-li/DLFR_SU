@@ -1,4 +1,4 @@
-# Usage
+# Usage (For Windows Users)
 ## Download 
 Download this directory and put it in a directory that you can access, for example, put it in 
 "C:\Users\LI Jin\Documents\MATLAB".
