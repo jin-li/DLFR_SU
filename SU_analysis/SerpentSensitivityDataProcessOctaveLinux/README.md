@@ -1,9 +1,9 @@
 # Usage (For Linux Users)
 ## Download 
-Download this directory and put it in a directory that you can access, for example, put it in 
+Download this folder and put it in a directory that you can access, for example, put it in 
 "/home/jli80/documents/octave".
 ## Modify Index Directory
-The directory "/indexm" atores necessary index files for the code. You should add its path to "initialize.m".
+The folder "/indexm" stores necessary index files for the code. You should add its path to "initialize.m".
 For example, if "/indexm"'s path is "/home/jli80/documents/octave/SerpentSensitivityDataProcessOctaveLinux/indexm", 
 substitute the 11th line of "initialize.m" with
 > indexdir='/home/jli80/documents/octave/SerpentSensitivityDataProcessOctaveLinux/indexm'
